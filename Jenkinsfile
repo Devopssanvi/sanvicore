@@ -7,7 +7,8 @@ pipeline{
         }
         stage('deploy') {
             echo "deploying applications"
-        }
+        
+	}
         
         stage("prep"){
             echo "hello world"
