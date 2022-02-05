@@ -11,7 +11,6 @@ pipeline{
         stage("prep"){
             echo "hello world"
         }
-
-    }
+     }
 
  }
