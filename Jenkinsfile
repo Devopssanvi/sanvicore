@@ -3,6 +3,7 @@ pipeline{
     stages{
         stage('build') {
             echo "building applications"
+         git "https://github.com/Devopssanvi/sanvicore.hi"
         }
         stage('deploy') {
             echo "deploying applications"
